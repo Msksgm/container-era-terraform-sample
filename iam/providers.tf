@@ -1,7 +1,7 @@
 terraform {
   required_version = ">= 1.0"
   backend "s3" {
-    bucket = "massugim-container-era-tfstate"
+    bucket = "msksgm-container-era-tfstate"
     key    = "iam/terraform.tfstate"
     region = "ap-northeast-1"
   }
